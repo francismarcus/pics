@@ -2,7 +2,7 @@ import React from 'react';
 
 const ImageList = props => {
   return props.images.map(({ id, description, urls }) => {
-    return <img key={id} alt={description} src={urls.regular} />
+    return <img class="ui fluid image" key={id} alt={description} src={urls.regular} />
   });
 };
 
